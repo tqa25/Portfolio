@@ -4,6 +4,9 @@ on:
   push:
     branches: [main]
 
+permissions:             # 🔥 BỔ SUNG DÒNG NÀY
+  contents: write        # 🔥 CHO PHÉP GITHUB ACTIONS ĐƯỢC PUSH
+
 jobs:
   build:
     runs-on: ubuntu-latest
