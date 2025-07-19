@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+lang: "en"
+---
+
+{% set i18n = i18n %}
+<section id="about" class="section py-20 px-4">
+  <h1 class="text-3xl font-bold mb-4">{{ i18n[lang].about }}</h1>
+  <p>Hello! I'm To Quoc Anh, a web developer with a passion for technology and learning. I studied IT in Korea and love creating things that bring value to users.</p>
+</section>
+
+<section id="skills" class="section py-20 px-4 bg-gray-800">
+  <h2 class="text-2xl font-bold mb-4">{{ i18n[lang].skills }}</h2>
+  <ul class="list-disc pl-6">
+    <li>Laravel</li>
+    <li>HTML/CSS/JavaScript</li>
+    <li>Tailwind CSS</li>
+    <li>Firebase (basic)</li>
+    <li>Korean - TOPIK 4</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="contact" class="section py-20 px-4">
+  <h2 class="text-2xl font-bold mb-4">{{ i18n[lang].contact }}</h2>
+  <p>Email: bagu.kr.vn@gmail.com</p>
+  <p>Phone: 0798 977 886</p>
+</section>

@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+lang: "ko"
+---
+
+{% set i18n = i18n %}
+<section id="about" class="section py-20 px-4">
+  <h1 class="text-3xl font-bold mb-4">{{ i18n[lang].about }}</h1>
+  <p>안녕하세요! 저는 토 꾸옥 안입니다. 한국에서 IT를 전공했고 웹 개발에 열정을 가지고 있습니다. 사용자에게 가치 있는 제품을 만들기 위해 노력하고 있습니다.</p>
+</section>
+
+<section id="skills" class="section py-20 px-4 bg-gray-800">
+  <h2 class="text-2xl font-bold mb-4">{{ i18n[lang].skills }}</h2>
+  <ul class="list-disc pl-6">
+    <li>Laravel</li>
+    <li>HTML/CSS/JavaScript</li>
+    <li>Tailwind CSS</li>
+    <li>Firebase (기초)</li>
+    <li>한국어 - TOPIK 4</li>
+    <li>Git & GitHub</li>
+  </ul>
+</section>
+
+<section id="contact" class="section py-20 px-4">
+  <h2 class="text-2xl font-bold mb-4">{{ i18n[lang].contact }}</h2>
+  <p>이메일: bagu.kr.vn@gmail.com</p>
+  <p>전화번호: 0798 977 886</p>
+</section>
